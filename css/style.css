@@ -63,7 +63,6 @@ main.longtext p{
   padding-left: .75em;
 }
 ul.events{
-  margin-left: 2em;
   list-style-type: none;
   display: inline-block;
   line-height: 1.5em;
@@ -75,7 +74,7 @@ ul.events > li{
   /* width: 100vw; */
 }
 ul.events > li > img{
-  display: inline-block;
+  display: block;
   /* margin: 0 auto; */
   margin-bottom: .5em;
   /* width: 40vw; */
@@ -164,6 +163,9 @@ footer{
     background-size: contain;
     margin: 1em 0em;
   }
+  ul.events{
+    margin-left: 2em;
+  }
 }
 @media only print {
   figure{
@@ -173,6 +175,9 @@ footer{
     display: none;
   }
   img.logo {
+    display: none;
+  }
+  ul.events > li > img{
     display: none;
   }
 }
