@@ -180,4 +180,12 @@ footer{
   ul.events > li > img{
     display: none;
   }
+  section.gallery section img{
+    max-width: 50vw;
+    /* max-height: 40vh; */
+    /* object-fit: contain; */
+    padding-top: 2em;
+    display: block;
+    page-break-inside: avoid !important;
+  }
 }
